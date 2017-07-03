@@ -9,7 +9,7 @@ Windows networks allow you to print the passwords of historical wifi networks th
 
 > netsh wlan show profile name=<profile> key=clear
 
-This script aims to  take that information and output only the ssid and passwords in json format to allow this information to be better integration with blue team operations, or for use with bash bunnies / rubber ducky like devices.
+This script aims to  take that information and output only the ssid and passwords in json format to allow this information to be better integrated with blue team operations, or for use with bash bunnies / rubber ducky like devices.
 
 # Example Usage / Output
 ```
