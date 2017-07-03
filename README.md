@@ -12,4 +12,5 @@ Retreives the SSID names and passwords in cleartext for each Wifi network stored
         "Password":  "hunter2",
         "SSID":  "Pretty fly for a wifi"
     }
-]```
+]
+```
