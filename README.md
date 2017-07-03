@@ -6,6 +6,7 @@ Retreives the SSID names and passwords in cleartext for each Wifi network stored
 Windows networks allow you to print the passwords of historical wifi networks that you have joined in cleartext with the following:
 
 > netsh wlan show profiles
+
 > netsh wlan show profile name=<profile> key=clear
 
 This script aims to  take that information and output only the ssid and passwords in json format to allow this information to be better purposed for blue team operations, or for use with bash bunnies / rubber ducky like devices.
